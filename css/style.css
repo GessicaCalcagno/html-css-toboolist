@@ -3,20 +3,52 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
+/* Header */
 .header{
     background-color: #EDF2F7;
-    display: block;
     margin-bottom: 30px;
 }
-.logo img{
-    margin-left: 40%;
+.logo{
+    text-align: center;
+}
+/* /Header */
+hr{
+    border-color: white;
+    border-width: 5px;
 }
 
 
-.container {
+.container{
     width: 80%;
     margin: 0 auto;
     background-color: #EDF2F7;
-    padding: 20px;
+  }
+
+  .bt{
+    text-align: center;
+    padding: 10px;
+  }
+
+  ol, li {
+     list-style:none
+  }
+.container-list{
+    border-top: solid white 3px;
+    padding: 10px;
+}
+ h2{
+    margin-left: 10px;
+    font-size: 18px;
+ }
+
+  li{
+    margin-left: 10px;
+  }
+
+  .bcwhite{
+    background-color: white;
+    margin-bottom: 5px;
+    margin-right: 20px;
   }
