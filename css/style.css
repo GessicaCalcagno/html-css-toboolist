@@ -52,3 +52,21 @@ hr{
     margin-bottom: 5px;
     margin-right: 20px;
   }
+  .label-blue{
+    background-color:#13ABF0;
+  }
+  .label-violet{
+    background-color: #AC60E7;
+  }
+  .label-green1{
+    background-color: #2CC6AB;
+  }
+  .label-orange{
+    background-color: orange;
+  }
+  .label-fucsia{
+background-color: fuchsia;
+  }
+  .label-green2{
+    background-color: #A3D116;
+  }
