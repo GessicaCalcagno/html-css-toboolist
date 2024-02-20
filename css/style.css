@@ -1,72 +1,103 @@
 /* RESET */
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* Header */
-.header{
+.header {
     background-color: #EDF2F7;
     margin-bottom: 30px;
 }
-.logo{
+
+.logo {
     text-align: center;
 }
+
 /* /Header */
-hr{
-    border-color: white;
-    border-width: 5px;
-}
 
-
-.container{
+/* CONTAINER */
+.container {
     width: 80%;
     margin: 0 auto;
     background-color: #EDF2F7;
-  }
-
-  .bt{
+}
+/* TAG INPUT */
+.bt {
     text-align: center;
-    padding: 10px;
-  }
+    padding: 10px;   
+}
 
-  ol, li {
-     list-style:none
-  }
-.container-list{
+.button {
+    background-color: #13ABF0;
+    border: 0;
+    border-radius: 3px;
+    color: #EDF2F7;
+}
+/* -TAG INPUT */
+
+/* LISTA NESTED */
+ol,li {
+    list-style: none
+}
+
+.container-list {
     border-top: solid white 3px;
     padding: 10px;
 }
- h2{
-    margin-left: 10px;
-    font-size: 18px;
- }
 
-  li{
+h2 {
     margin-left: 10px;
-  }
+    font-size: 13px;
+}
 
-  .bcwhite{
+li {
+    margin-left: 10px;
+    font-size: 10px;
+    padding: 2px;
+}
+
+/* SFONDO ''LI'' */
+.bcwhite {
     background-color: white;
     margin-bottom: 5px;
     margin-right: 20px;
-  }
-  .label-blue{
-    background-color:#13ABF0;
-  }
-  .label-violet{
+    box-sizing: border-box;
+}
+
+/* LINE THROUGH */
+.lthr{
+text-decoration: line-through;
+}
+/* SFONDO ETICHETTE */
+.label-blue {
+    background-color: #13ABF0;
+}
+
+.label-violet {
     background-color: #AC60E7;
-  }
-  .label-green1{
+}
+
+.label-green1 {
     background-color: #2CC6AB;
-  }
-  .label-orange{
+}
+
+.label-orange {
     background-color: orange;
-  }
-  .label-fucsia{
-background-color: fuchsia;
-  }
-  .label-green2{
+}
+
+.label-fucsia {
+    background-color: fuchsia;
+}
+
+.label-green2 {
     background-color: #A3D116;
-  }
+}
+
+/* BORDO ETICHETTE */
+.bdr {
+    border-radius: 5px;
+}
+
