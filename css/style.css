@@ -27,14 +27,22 @@
 /* TAG INPUT */
 .bt {
     text-align: center;
-    padding: 10px;   
+    padding: 10px; 
 }
 
-.button {
+.search{
+    font-size: 8px;  
+    border: 0;  
+    border-radius: 3px;
+}
+
+.buttontask {
     background-color: #13ABF0;
     border: 0;
     border-radius: 3px;
     color: #EDF2F7;
+    font-size: 6px;
+    padding: 2px;
 }
 /* -TAG INPUT */
 
@@ -50,13 +58,30 @@ ol,li {
 
 h2 {
     margin-left: 10px;
-    font-size: 13px;
+    font-size: 8px;
 }
 
 li {
     margin-left: 10px;
-    font-size: 10px;
+    font-size: 6px;
     padding: 2px;
+}
+
+/* CHECK E CROSS */
+.done{    
+    border: 0.5px solid green;
+    color: green;
+    text-decoration: none;
+}
+.undone{
+    border: 0.5px solid red;
+    color: red;   
+}
+.done,.undone{
+    font-size: 4px;
+    border-radius: 50%;
+    padding: 2px 2px;
+    margin: 0 10px;
 }
 
 /* SFONDO ''LI'' */
@@ -71,6 +96,7 @@ li {
 .lthr{
 text-decoration: line-through;
 }
+
 /* SFONDO ETICHETTE */
 .label-blue {
     background-color: #13ABF0;
@@ -90,6 +116,7 @@ text-decoration: line-through;
 
 .label-fucsia {
     background-color: fuchsia;
+    
 }
 
 .label-green2 {
@@ -99,5 +126,9 @@ text-decoration: line-through;
 /* BORDO ETICHETTE */
 .bdr {
     border-radius: 5px;
+    text-align: center;
+    font-size: 6px;
+    padding: 2px;
 }
 
+/* vertical-align: middle; */
